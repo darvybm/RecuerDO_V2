@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- dialog_add_task.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_dialog"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título del Modal -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_title_modal"
+        android:text="Agregar Tarea"
+        android:textColor="@color/whiteGray"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/textDeleteDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese la tarea"
+        android:inputType="text"
+        android:textColor="@color/darkGray"
+        android:textColorHighlight="@color/blueGreen"
+        android:textColorLink="@color/blueGreen"
+        android:backgroundTintMode="src_in"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/blueGreen" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/red"
+            android:text="Cerrar"
+            android:layout_weight="1"
+            android:textColor="@color/whiteGray"/>
+
+        <Space
+            android:layout_width="8dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnConfirmar"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/blueGreen"
+            android:text="Agregar"
+            android:textColor="@color/whiteGray"
+            android:textColorHint="@color/darkGray" />
+    </LinearLayout>
+</LinearLayout>

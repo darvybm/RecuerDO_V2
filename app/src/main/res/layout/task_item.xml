@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/TaskBackgroundGray"
+    app:cardCornerRadius="20dp"
+    android:layout_marginBottom="15dp"
+    android:elevation="0dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/TaskBackgroundGray"
+        android:elevation="0dp"
+        app:cardElevation="0dp">
+
+        <View
+            android:layout_width="25dp"
+            android:layout_height="55dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/rectangle_task" />
+
+        <TextView
+            android:id="@+id/taskTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="Recoger La Basura"
+            android:textColor="@color/darkGray"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:buttonTint="@color/blueGreen"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/deleteButton"
+            android:layout_width="53dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="@color/TaskBackgroundGray"
+            android:contentDescription="Eliminar tarea"
+            android:scaleType="centerInside"
+            android:src="@drawable/trash"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

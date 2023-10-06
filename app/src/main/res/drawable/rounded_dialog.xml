@@ -1,0 +1,5 @@
+<!-- rounded_dialog.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" /> <!-- Color de fondo del modal -->
+    <corners android:radius="20dp" /> <!-- Radio de las esquinas para redondear el modal -->
+</shape>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="whiteGray">#EBEBEB</color>
+    <color name="blueGreen">#2888A6</color>
+    <color name="TaskBackgroundGray">#E2E2E2</color>
+    <color name="red">#E35151</color>
+    <color name="darkGray">#373737</color>
+</resources>
